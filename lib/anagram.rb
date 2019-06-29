@@ -9,7 +9,7 @@ end
 def match(array)
   array.keep_if do |word|
     #keep_if = Deletes every element of self for which the given block evaluates to false, and returns self.
-  # array.select do |word|
+# array.select do |word|
     word.split("").sort == @name.split("").sort
   end
 end
